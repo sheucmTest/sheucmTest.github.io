@@ -33,17 +33,6 @@ nav {
 }
 
 
-
-/* 卡片css樣式 */
-/* 
-  # box-shadow的六個參數:
-  h-shadow：水平位移距離
-  v-shadow：垂直位移距離
-  blur：模糊半徑
-  spread：擴散距離
-  color：顏色
-  inset：內陰影
-*/
 .article {
   background-color: #d9dacf;
   margin: 20px auto;
