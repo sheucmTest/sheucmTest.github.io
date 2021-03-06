@@ -1,0 +1,62 @@
+/* 初始化css的設定 */
+html, body, ul {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* .links下的<ul> */
+.links ul {
+  display: flex;
+}
+.links ul li {
+  margin-right: 1em;
+}
+.links ul li a {
+  color: rgb(226, 226, 226);
+}
+.links ul li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+
+
+/* 卡片樣式 */
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  width: 750px;
+  margin: 1em auto;
+  border-radius: 12px;
+  box-shadow: 2px 3px 7px 1px #a9b9ca;
+}
+
+/* 大頭照 */
+.card .img {
+  width: 400px;
+  height: 400px;
+  align-self: center;  /* 水平垂直 */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* 文字介紹 */
+.card .intro {
+  margin-left: 5em;
+  color: #525252;
+  font-size: 20px;
+}
